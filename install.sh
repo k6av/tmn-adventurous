@@ -4,7 +4,6 @@
 T=$(mktemp -d)
 fail() {
   cd
-  rm -r ${T}
   echo "Installation not complete."
   exit 1
 }
