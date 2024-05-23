@@ -18,7 +18,7 @@ NP_RUNTIME=bwrap ./nix-portable nix build github:k6av/tmn-adventurous --no-link 
 
 MCDIR="${MCDIR:-"$HOME/.minecraft"}"
 mkdir -p "$MCDIR" || fail
-NP_RUNTIME=bwrap ./nix-portable nix shell nixpkgs#bash -c cp -r -b ./result/* "$MCDIR" || fail
+NP_RUNTIME=bwrap ./nix-portable nix shell nixpkgs#bash -c cp -r -b ./result/mods ./result/config "$MCDIR" || fail
 chmod u+w -R "$MCDIR"
 
 rm -r ${T}
