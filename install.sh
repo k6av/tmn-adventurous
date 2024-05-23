@@ -20,6 +20,7 @@ chmod +x ./nix-portable || fail
 MCDIR="${MCDIR:-"$HOME/.minecraft"}"
 mkdir -p "$MCDIR" || fail
 cp -r -b ./result/* "$MCDIR" || fail
+chmod u+w -R "$MCDIR"
 
 rm -r ${T}
 echo "Installation complete."
