@@ -1,5 +1,5 @@
 # TMN for Minecraft Forge 1.20.1 "Adventurous"
-TMN "_Adventurous_" is a Forge modpack for 1.20.1 that incorporates "tech", "magic", and "nature" mods, provided by Mekanism (+ OpenComputers 2 and ProjectRed), Apotheosis, and Biomes o' Plenty (+ Serene Seasons and Farmer's Delight) respectively. Additionally, it includes a few "must-have" utility mods including JEI, JourneyMap, OptiFine, and Jade (a successor to WAILA).
+TMN "_Adventurous_" is a Forge modpack for 1.20.1 that incorporates "tech", "magic", and "nature" mods, provided by Mekanism (+ Railcraft Reborn), Apotheosis, and Biomes o' Plenty (+ Serene Seasons and Farmer's Delight) respectively. Additionally, it includes a few "must-have" utility mods including JEI, JourneyMap, OptiFine, and Jade (a successor to WAILA).
 
 ## Installation (Linux)
 
