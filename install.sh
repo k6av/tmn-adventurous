@@ -17,7 +17,7 @@ chmod +x ./nix-portable || fail
 
 ./nix-portable nix build github:k6av/tmn-adventurous -o result || fail
 
-MCDIR="$HOME/.minecraft"
+MCDIR="${MCDIR:-"$HOME/.minecraft"}"
 mkdir -p "$MCDIR" || fail
 cp -r -b ./result/* "$MCDIR" || fail
 
