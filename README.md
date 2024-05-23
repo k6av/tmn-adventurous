@@ -9,7 +9,7 @@ curl -fsSL "https://github.com/k6av/tmn-adventurous/raw/main/install.sh" | bash
 
 If your Minecraft installation folder is located somewhere other than `~/.minecraft`, you can use
 ```shell
-MCDIR="/some/directory" curl -fsSL "https://github.com/k6av/tmn-adventurous/raw/main/install.sh" | bash
+curl -fsSL "https://github.com/k6av/tmn-adventurous/raw/main/install.sh" | MCDIR="/some/directory" bash
 ```
 
 ## No chat reports
