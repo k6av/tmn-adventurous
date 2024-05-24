@@ -15,8 +15,4 @@
     url = "https://mediafilez.forgecdn.net/files/4892/980/smeltalotl.jar";
     hash = "sha256-gV2dgI86qFdDj3INLynNWiSbKANesYquwYEuNoi5a+Y=";
   })
-  (pkgs.fetchurl { # Easter egg :P
-    url = "https://mediafilez.forgecdn.net/files/4892/980/smeltalotl.jar";
-    hash = "sha256-gV2dgI86qFdDj3INLynNWiSbKANesYquwYEuNoi5a+Y=";
-  })
 ]
