@@ -16,7 +16,7 @@
       
       coreutils = pkgs.coreutils;
       mods = ((import ./mods) pkgs);
-      config = (./config);
+      custom = (./custom);
       
       builder = "${pkgs.bash}/bin/bash";
       args = [ ./builder.sh ];

@@ -2,7 +2,7 @@
 export PATH="$coreutils/bin"
 mkdir ${out}
 
-cp -r ${config} ${out}/config
+cp -r ${custom}/* ${out}
 
 mkdir ${out}/mods
 cp -r ${mods} ${out}/mods
