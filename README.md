@@ -1,4 +1,4 @@
-# TMN for Minecraft Forge 1.20.1 "Adventurous"
+# TMN "Adventurous" for Minecraft Forge 1.20.1
 TMN "_Adventurous_" is a Forge modpack for 1.20.1 that incorporates "tech", "magic", and "nature" mods, provided by Mekanism (+ Railcraft Reborn), Apotheosis, and Biomes o' Plenty (+ Serene Seasons and Farmer's Delight) respectively. Additionally, it includes a few "must-have" utility mods including JEI, JourneyMap, OptiFine, and Jade (a successor to WAILA).
 
 ## Installation (Linux)
@@ -11,6 +11,8 @@ If your Minecraft installation folder is located somewhere other than `~/.minecr
 ```shell
 curl -fsSL "https://github.com/k6av/tmn-adventurous/raw/main/install.sh" | MCDIR="/some/directory" bash
 ```
+## TMN Modpacks
+_Adventurous_ (1.20.1) · [_Inventive_ (1.18.2)](https://github.com/k6av/tmn-inventive)
 
 ## No chat reports
 This modpack includes a mod that disables the chat reporting system (both client-side and server-side, if installed). The Minecraft chat reporting system is flawed both technically and organisationally; to protect players from abuse this pack includes the "No Chat Reports" mod.
