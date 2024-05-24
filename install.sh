@@ -18,6 +18,7 @@ chmod +x ./nix-portable || fail
 
 NP_RUNTIME=bwrap ./nix-portable nix build github:k6av/tmn-adventurous --no-link -o result || fail
 
+if [ -d "$MCDIR/mods" ]; then mv -f "$MCDIR/mods" "$MCDIR/mods~"; fi
 mkdir -p "$MCDIR" || fail
 NP_RUNTIME=bwrap ./nix-portable nix shell nixpkgs#bash -c cp -r -b ./result/mods ./result/config ./result/scripts "$MCDIR" || fail
 chmod u+w -R "$MCDIR"
