@@ -8,6 +8,8 @@ fail() {
   exit 1
 }
 trap fail SIGINT
+
+MCDIR="$(realpath "${MCDIR:-"$HOME/.minecraft"}")"
 cd ${T}
 
 # Grab Nix
@@ -16,7 +18,6 @@ chmod +x ./nix-portable || fail
 
 NP_RUNTIME=bwrap ./nix-portable nix build github:k6av/tmn-adventurous --no-link -o result || fail
 
-MCDIR="${MCDIR:-"$HOME/.minecraft"}"
 mkdir -p "$MCDIR" || fail
 NP_RUNTIME=bwrap ./nix-portable nix shell nixpkgs#bash -c cp -r -b ./result/mods ./result/config "$MCDIR" || fail
 chmod u+w -R "$MCDIR"
