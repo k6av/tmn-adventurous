@@ -23,6 +23,10 @@
     url = "https://mediafilez.forgecdn.net/files/4610/474/NoChatReports-FORGE-1.20.1-v2.2.2.jar";
     hash = "sha256-73+lCW39SSw9OuciiIjKS5LOB9m44wIpfOss6x+NI4w=";
   })
+  (pkgs.fetchurl { # Configured
+    url = "https://mediafilez.forgecdn.net/files/5180/900/configured-forge-1.20.1-2.2.3.jar";
+    hash = "sha256-Bdzt3VeCX5ERNckpUE7zILdZU9BefckY26WKBXTlMV8=";
+  })
 ]
  
  
