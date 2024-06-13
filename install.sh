@@ -20,7 +20,7 @@ NP_RUNTIME=bwrap ./nix-portable nix build github:k6av/tmn-adventurous --no-link 
 
 if [ -d "$MCDIR/mods" ]; then mv -f "$MCDIR/mods" "$MCDIR/mods~"; fi
 mkdir -p "$MCDIR" || fail
-NP_RUNTIME=bwrap ./nix-portable nix shell nixpkgs#bash -c cp -r -b ./result/mods ./result/config ./result/scripts "$MCDIR" || fail
+NP_RUNTIME=bwrap ./nix-portable nix shell nixpkgs#bash -c cp -r -b ./result/mods ./result/config ./result/scripts ./result/resourcepacks "$MCDIR" || fail
 chmod u+w -R "$MCDIR"
 
 rm -r ${T}
